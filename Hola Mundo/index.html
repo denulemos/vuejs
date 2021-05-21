@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplo 1</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+  
+		<div id="app"> // El div con el id "app" será nuestro entry-point 
+			{{ hello }}
+		</div>
+ 
+		// Instalamos VueJS mediante un CDN en esta ocasion
+		<script src="https://unpkg.com/vue@next"></script>
+ 
+		<script>
+			
+			const HelloWorld = {
+                // El metodo data es el objeto con los datos que está manipulando Vue
+				data () {
+					return {
+                        // El String que luego será referenciado en el HTML
+						hello: '¡Hola Mundo!'
+					}
+				}
+			}
+            // Creamos nuestra aplicacion mediante un createApp que será montado sobre el elemento cuyo id sea "app"
+			Vue.createApp(HelloWorld).mount('#app');
+ 
+		</script>
+	</body>
+</html>
