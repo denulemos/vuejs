@@ -1,4 +1,4 @@
-# VueJS
+# VueJS - EN CONSTRUCCION -
 
 ### ¿Qué es VueJS?
 * Es un framework para la construccion de interfaces de usuario que posee un comportamiento **reactivo**, quiere decir que los datos de las variables de JS y los datos que se muestran en el DOM estan vinculados. Si cambio algo en el JS, se verá reflejado en el DOM 
